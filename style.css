@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:grid;
+    place-items:center;
+    min-height:100vh;
+    background: radial-gradient(circle at top right, #45374C, #302038);
+}
+
+.content{
+    width:100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+i{
+    font-size: 50px;
+    color: #dfdfdf;
+    transition:all 1s;
+}
+
+.icon:hover i{
+    transform: scale(2) rotate(380deg);
+    background: linear-gradient(to right, #9c3870, #c72B44 70%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+
+}
+
+
+
+
